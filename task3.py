@@ -4,12 +4,12 @@ def test(x,y) :
     else :
         print("FALSE")
 
-g = input("Insert 1st number : ");
-h = input("Insert 2nd number : ");
+g = input("Insert 1st number : ")
+h = input("Insert 2nd number : ")
 
-x = float(g);
-y = float(h);
+x = float(g)
+y = float(h)
 
-print(" ");
-test(x,y);
-print(" ");
+print(" ")
+test(x,y)
+

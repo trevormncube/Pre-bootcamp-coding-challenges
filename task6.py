@@ -1,21 +1,21 @@
-def maxNum(x,y,z) :
+def max_Num(x,y,z) :
 
     if (x>=z and x>=y) :
-        print ("The first number is the maximum : ",x);
+        print ("The first number is the maximum : ",x)
     elif (y>=z and y>=x) :
-        print ("The second number is the maximum : ",y);
+        print ("The second number is the maximum : ",y)
     else :
-        print ("The third number is the maximum : ",z);
+        print ("The third number is the maximum : ",z)
 
 
-g=input("Insert first number : ");
-h=input("Insert Second number : ");
-i=input("Insert Third number : ");
+g=input("Insert first number : ")
+h=input("Insert Second number : ")
+i=input("Insert Third number : ")
 
-x=float(g);
-y=float(h);
-z=float(i);
+x=float(g)
+y=float(h)
+z=float(i)
 
-print(" ");
-maxNum(x,y,z)
-print(" ");
+print(" ")
+max_Num(x,y,z)
+
